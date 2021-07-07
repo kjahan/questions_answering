@@ -1,6 +1,6 @@
 # bert-squad-demo
 Demo web server app that shows how BERT model trained on SQuAD dataset deals with the machine
-comprehension task.
+comprehension task.  See the refrence project [here](https://github.com/jurekkow/bert-squad-demo).
 
 It was implemented for the purposes of presentation on STX Next Tech Power Summit 2019.
 Slides from the presentation are available [here](slides/whats_new_in_word_vectors.pdf).
@@ -10,20 +10,20 @@ Let's create a conda environment called `lang`, then we can follow the rest of i
 # Create conda env:
 
 ```
-$ conda create -n lang python=3.6
+conda create -n lang python=3.6
 ```
 
 # To activate this environment, use
 
 ```
-$ conda activate lang
+conda activate lang
 ```
 (on MacOS, you might also need to run: `unset PYTHONPATH`)
 
 # To deactivate an active environment, use
 
 ```
-$ conda deactivate
+conda deactivate
 ```
 
 
@@ -36,7 +36,10 @@ and [download](model/README.md) BERT model for machine comprehension.  You can i
 $ pip install -r requirements.txt
 ````
 
-To run the server, navigate into the main project's directory and type
+Make sure you download the pre-trained model before running the server.  Check model's [README.md](model/README.md) for the instructions on how to download and save the model.
+
+
+To run the web server, navigate into the main project's directory and type
 
 ```
 $ flask run
