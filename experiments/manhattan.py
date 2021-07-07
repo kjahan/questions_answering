@@ -51,17 +51,17 @@ def run_experiment():
       until the formation of the United States Atomic Energy Commission in January 1947."""
 
       question='When was Manhattan Project?'
-      print("question: {} --> answer: {}".format(question, utility.get_answer(question, 
+      print("Q: {} --> A: {}".format(question, utility.get_answer(question, 
             guardian_context)))
 
       question='What was Manhattan Project?'
-      print("question: {} --> answer: {}".format(question, utility.get_answer(question, 
+      print("Q: {} --> A: {}".format(question, utility.get_answer(question, 
             guardian_context)))
 
       question='How many people worked on Manhattan Project?'
-      print("question: {} --> answer: {}".format(question, utility.get_answer(question, 
+      print("Q: {} --> A: {}".format(question, utility.get_answer(question, 
             guardian_context)))
 
-      question='How much Manhattan Project costed?'
-      print("question: {} --> answer: {}".format(question, utility.get_answer(question, 
+      question='How much did Manhattan Project cost?'
+      print("Q: {} --> A: {}".format(question, utility.get_answer(question, 
             guardian_context)))
